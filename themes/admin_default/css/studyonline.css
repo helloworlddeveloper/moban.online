@@ -1,0 +1,459 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate Wed, 24 Dec 2014 06:56:00 GMT
+ */
+ 
+ ul {list-style:none;margin:0px;padding:0px;}
+#gen-question-panel {
+	width:500px;
+	float:left;
+	margin-right:10px;
+	display:none;
+	border:1px solid #CCC;
+	padding:2px;
+}
+#gen-preview-panel {
+	width:500px;
+	float:left;
+	display:none;
+	border:1px dashed #CCC;
+	padding:2px;
+}
+#gen-question-panel li {
+	margin-bottom:5px;
+}
+#gen-question-panel a {
+	text-decoration:none;
+	color:#000;
+}
+#preview {
+	padding:0px 35px 0px 35px;
+	font-size:14px;
+}
+#preview input {
+	font-size:14px;
+}
+#preview select {
+	font-size:14px;
+}
+.gen-topic-area {
+	font-size:16px;
+	background:#F5F5F5;
+	padding:5px;
+	border: 1px solid #CCC;
+}
+.gen-topic-title {
+	font-weight:bold;
+	padding:3px 0px 3px 0px;
+}
+.gen-module-partition {
+	font-size:15px;
+	background:#F9F9F9;
+	padding:5px;
+	border: 1px solid #CCC;
+}
+.gen-question-area {
+	position:relative;
+}
+.gen-question-display {
+	height:42px;
+	background:url('../images/gen_question_bg.png');
+	padding:0px 5px 0px 5px;
+}
+.gen-question {
+	display:none;
+	position:absolute;
+	top:30px;
+	left:50px;
+	border:1px solid #CCC;
+	width:400px;
+	padding:5px;
+	background:#FFF;
+	z-index:2;
+}
+#gen-partition fieldset {
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border:1px solid #CCC;
+}
+.gen-drop-question-area {
+	padding:5px;
+	margin:5px;
+}
+.input-beauty input[type=text]{
+	padding:3px;
+}
+.input-beauty select {
+	padding:3px;
+}
+.gen-question-preview {
+	border:1px solid #CCC;
+	margin:2px;
+	padding:2px;
+}
+.gen-question-preview-close {
+	float:right;
+}
+.gen-question-point {
+	float:left;
+}
+.opt-setting {
+	border:1px dashed #FF0000;
+	padding:3px;
+	margin:5px 0px 5px 0px;
+	font-size:14px;
+}
+.opt-setting input {
+	padding:3px;
+}
+.opt-setting select {
+	padding:3px;
+}
+#popupOverlay {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 9999;
+	background-color: black;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+	opacity: 0.85;
+	display: none;
+}
+#popup {
+	position: absolute;
+	left: 0px;
+	z-index: 10000;
+	display:none;
+}
+.popup-outerContainer {
+  position: relative;
+  background-color: white;
+  *zoom: 1;
+  margin: 0 auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.popup-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.popup-container {
+  padding: 10px;
+}
+
+.favourite-question {
+    height: 97px;
+    text-align: center;
+    width: 86px;
+}
+.multiple-question {
+    height: 97px;
+    text-align: center;
+    width: 86px;
+}
+.question-item_0{
+    background: url('../images/daytot/ques_0.png');
+}
+.question-item_1{
+    background: url('../images/daytot/ques_1.png');
+}
+
+.question-summary {
+    padding-top: 20px;
+    text-align: center;
+}
+.multiple-choice {
+    list-style: upper-alpha;
+    margin: 5px 0 0 10px;
+    padding: 5px 0 0 10px;
+}
+/* as fb */
+.uiInlineTokenizer .uiToken {
+    top: 2px;
+}
+
+.uiInlineTokenizer {
+    border: 1px solid #BDC7D8;
+    cursor: text;
+}
+.uiCloseButtonSmall {
+    background-image: url("../images/delfb.png");
+    height: 11px;
+    margin-top: 1px;
+    width: 11px;
+}
+.uiCloseButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.uiTypeahead{
+    border-top: 1px solid #ccc;
+}
+.uiTypeahead .textInput {
+    background:none !important;
+    border: none!important;
+    border: 0 none;
+    outline: 0 none;
+    -webkit-box-shadow: 0 0 0 #fff;
+    -moz-box-shadow: 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff;
+}
+.uiTypeahead .selected {
+    background-color: #E2E8F6;
+}
+.uiTypeaheadDisabled, .uiTypeaheadDisabled div.wrap {
+    border-color: #CCCCCC;
+}
+.uiTypeaheadDisabled div.wrap {
+    background: none repeat scroll 0 0 #E2E2E2;
+}
+.uiToken {
+    background: #E6E6E6;
+    border: 1px solid #ccc;
+    border-radius: 2px 2px 2px 2px;
+    color: #1C2A47;
+    cursor: default;
+    display: block;
+    float: left;
+    height: 25px;
+	line-height: 24px;
+    margin: 0 4px 4px 0;
+    padding: 0 3px;
+    position: relative;
+    font-size: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.uiToken .remove {
+    margin: 2px 0 -2px 1px;
+    outline: medium none;
+}
+.uiTokenSelected {
+    background-color: #6D84B4;
+    border-color: #3B5998;
+    color: #FFFFFF;
+}
+.uiTokenGray {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-color: gray;
+}
+.uiTokenizer {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.tokenarea {
+    overflow: hidden;
+    float: left;
+    padding-left: 3px;
+}
+.uiContextualTypeaheadView {
+    position: static;
+}
+.uiTypeaheadView ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #333333 #333333 #293E6A;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.uiTypeaheadView .freeform {
+    border-top-color: #DDDDDD;
+    padding: 2px 6px 1px;
+    text-align: center;
+}
+.fa-times{
+    color: #f00;
+}
+.fa-check{
+    color: #21b384;
+}
+
+.grid-edit input[type="text"], input.mark, input.mark:focus {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.table th .current, .table th span:hover {
+    background-color: #da4f49;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px;
+}
+.table th .current a {
+    color: #fff;
+    text-decoration: none;
+}
+#ajax_load {
+    background: transparent url("../images/daytot/bg_loading.png") no-repeat scroll center bottom;
+    display: none;
+    height: 40px;
+    left: 42%;
+    position: fixed;
+    top: 0;
+    width: 275px;
+    z-index: 9999;
+}
+#ajax_load .loading {
+    background: transparent url("../images/daytot/loading.gif") no-repeat scroll 0 0;
+    color: #f00;
+    margin: 5px 0 5px 20px;
+    padding-left: 20px;
+}
+#ui-datepicker-div{
+    width: 250px;
+}
+.sum{
+    background-color: #98c8ff !important;
+    color: #f00;
+}
+#data_hocphi table td{
+    vertical-align:middle !important;
+}
+.wpb_wrapper {
+    background: #36ade2;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.border-lkg {
+    border-radius: 5px;
+}
+.daytot > thead > tr > th, .daytot > tbody > tr > th, .daytot > tfoot > tr > th, .daytot > thead > tr > td, .daytot > tbody > tr > td, .daytot > tfoot > tr > td
+{
+    border: 1px solid #c4c1c1 !important;
+}
+.fullname{
+    text-align: center;
+   	vertical-align: middle !important;
+}
+.modal-title{
+    font-weight: bold;
+}
+
+
+
+.modal-open {
+    overflow: hidden;
+}
+.modal {
+    bottom: 0;
+    display: none;
+    left: 0;
+    outline: 0 none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1050;
+}
+.modal.fade .modal-dialog {
+    transform: translate(0px, -25%);
+    transition: transform 0.3s ease-out 0s;
+}
+.modal.in .modal-dialog {
+    transform: translate(0px, 0px);
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal-dialog {
+    margin: 10px;
+    position: relative;
+    width: auto;
+}
+.modal-content {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0 none;
+    position: relative;
+}
+.modal-backdrop {
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+.modal-backdrop.fade {
+    opacity: 0;
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+}
+.modal-header {
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 11.4286px;
+    padding: 10px;
+}
+.modal-header .close {
+    margin-top: -2px;
+}
+.modal-title {
+    line-height: 1.42857;
+    margin: 0;
+}
+.modal-body {
+    padding: 10px;
+    position: relative;
+}
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+    text-align: right;
+}
+.modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+.modal-scrollbar-measure {
+    height: 50px;
+    overflow: scroll;
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+}
+.modal-sm {
+    width: 300px;
+}
+.modal-dialog {
+    margin: 30px auto;
+}
+.message_body {
+	padding: 0px 10px 15px
+}

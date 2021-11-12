@@ -1,0 +1,289 @@
+.item-agencey {
+    border: 1px solid #ffceea;
+    border-radius: 7px;
+    padding: 12px;
+    background: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+
+/* CART */
+div.step_bar a.step {
+    display: block;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+div.step_bar a.step span {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    color: #039;
+}
+
+div.step_bar a.step_current{
+    color: red;
+}
+
+
+/* as fb */
+.uiInlineTokenizer .uiToken {
+    top: 2px;
+}
+
+.uiInlineTokenizer {
+    border: 1px solid #BDC7D8;
+    cursor: text;
+}
+.uiCloseButtonSmall {
+    background-image: url("../images/sm/delfb.png");
+    height: 11px;
+    margin-top: 1px;
+    width: 11px;
+}
+.uiCloseButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.uiTypeahead{
+    border-top: 1px solid #ccc;
+}
+.uiTypeahead .innerWrap {
+    overflow: hidden;
+}
+.uiTypeahead .textInput {
+    background:none !important;
+    border: none!important;
+    border: 0 none;
+    outline: 0 none;
+    -webkit-box-shadow: 0 0 0 #fff;
+    -moz-box-shadow: 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff;
+}
+.uiTypeahead .selected {
+    background-color: #E2E8F6;
+}
+.uiTypeaheadDisabled, .uiTypeaheadDisabled div.wrap {
+    border-color: #CCCCCC;
+}
+.uiTypeaheadDisabled div.wrap {
+    background: none repeat scroll 0 0 #E2E2E2;
+}
+.uiToken {
+    background: #E6E6E6;
+    border: 1px solid #ccc;
+    border-radius: 2px 2px 2px 2px;
+    color: #1C2A47;
+    cursor: default;
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 24px;
+    margin: 0 4px 4px 0;
+    padding: 0 3px;
+    position: relative;
+    font-size: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.uiToken .remove {
+    margin: 2px 0 -2px 1px;
+    outline: medium none;
+}
+.uiTokenSelected {
+    background-color: #6D84B4;
+    border-color: #3B5998;
+    color: #FFFFFF;
+}
+.uiTokenGray {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-color: gray;
+}
+.uiTokenizer {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.tokenarea {
+    overflow: hidden;
+    padding-left: 3px;
+}
+.uiContextualTypeaheadView {
+    position: static;
+}
+.uiTypeaheadView ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #333333 #333333 #293E6A;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.uiTypeaheadView .freeform {
+    border-top-color: #DDDDDD;
+    padding: 2px 6px 1px;
+    text-align: center;
+}
+.money{
+    color: #FF0040;
+    font-size: 18px;
+}
+
+.payment {
+    color: #ff0000;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #ff0000;
+    padding: 3px;
+    text-transform: uppercase;
+}
+
+
+table.rows2 {
+    width: 100%;
+    padding: 5px;
+}
+
+table.rows {
+    width: 100%;
+}
+
+table.rows td {
+    padding: 5px
+}
+
+table.rows td img.imgpro {
+    width: 40px;
+    padding: 2px;
+    border: 1px solid #ebebeb;
+    vertical-align: middle;
+}
+
+table.rows tr.bgtop {
+    background: #CCE6FF;
+    line-height: 22px;
+}
+
+
+.funkyradio label {
+    /*min-width: 400px;*/
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+.funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 1em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.funkyradio input[type="radio"]:empty ~ label:before, .funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+.funkyradio input[type="radio"]:checked ~ label:before, .funkyradio input[type="checkbox"]:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio input[type="radio"]:checked ~ label, .funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+.funkyradio input[type="radio"]:focus ~ label:before, .funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+.funkyradio-default input[type="radio"]:checked ~ label:before, .funkyradio-default input[type="checkbox"]:checked ~ label:before {
+    color: #333;
+    background-color: #ccc;
+}
+.funkyradio-primary input[type="radio"]:checked ~ label:before, .funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+.funkyradio-success input[type="radio"]:checked ~ label:before, .funkyradio-success input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5cb85c;
+}
+.funkyradio-danger input[type="radio"]:checked ~ label:before, .funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #d9534f;
+}
+.funkyradio-warning input[type="radio"]:checked ~ label:before, .funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.funkyradio-info input[type="radio"]:checked ~ label:before, .funkyradio-info input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #5bc0de;
+}
+.error{
+    color: #FF0000;
+}
+
+.reviews {
+    margin: 15px 0 0;
+}
+.reviews .review-item {
+    padding: 10px 0;
+    border-top: 1px solid #d8d8da;
+    float: left;
+    color: #0f1c24;
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+}
+.addtime{
+    font-size: 13px;
+}
+.reviews .review-item .logo {
+    position: absolute;
+    top: 0px;
+    margin-top: -11px;
+    margin-left: -26px;
+    left: 0;
+    border: 0!important;
+    border-radius: 0!important;
+    padding: 0!important;
+    width: 290px!important;
+}

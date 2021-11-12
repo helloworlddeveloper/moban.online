@@ -1,0 +1,254 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate Wed, 26 Nov 2014 07:05:38 GMT
+ */
+ 
+ /* as fb */
+.uiInlineTokenizer .uiToken {
+    top: 2px;
+}
+
+.uiInlineTokenizer {
+    border: 1px solid #BDC7D8;
+    cursor: text;
+}
+.uiCloseButtonSmall {
+    background-image: url("../images/mkt/delfb.png");
+    height: 11px;
+    margin-top: 1px;
+    width: 11px;
+}
+.uiCloseButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.uiTypeahead{
+    border-top: 1px solid #ccc;
+}
+.uiTypeahead .innerWrap {
+    overflow: hidden;
+}
+.uiTypeahead .textInput {
+    background:none !important;
+    border: none!important;
+    border: 0 none;
+    outline: 0 none;
+    -webkit-box-shadow: 0 0 0 #fff;
+    -moz-box-shadow: 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff;
+}
+.uiTypeahead .selected {
+    background-color: #E2E8F6;
+}
+.uiTypeaheadDisabled, .uiTypeaheadDisabled div.wrap {
+    border-color: #CCCCCC;
+}
+.uiTypeaheadDisabled div.wrap {
+    background: none repeat scroll 0 0 #E2E2E2;
+}
+.uiToken {
+    background: #E6E6E6;
+    border: 1px solid #ccc;
+    border-radius: 2px 2px 2px 2px;
+    color: #1C2A47;
+    cursor: default;
+    display: block;
+    float: left;
+    height: 25px;
+	line-height: 24px;
+    margin: 0 4px 4px 0;
+    padding: 0 3px;
+    position: relative;
+    font-size: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.uiToken .remove {
+    margin: 2px 0 -2px 1px;
+    outline: medium none;
+}
+.uiTokenSelected {
+    background-color: #6D84B4;
+    border-color: #3B5998;
+    color: #FFFFFF;
+}
+.uiTokenGray {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-color: gray;
+}
+.uiTokenizer {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.tokenarea {
+    overflow: hidden;
+    padding-left: 3px;
+}
+.uiContextualTypeaheadView {
+    position: static;
+}
+.uiTypeaheadView ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #333333 #333333 #293E6A;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.uiTypeaheadView .freeform {
+    border-top-color: #DDDDDD;
+    padding: 2px 6px 1px;
+    text-align: center;
+}
+
+/*model*/
+.modal-dialog {
+    margin: 30px auto;
+    width: 600px;
+}
+.close:hover, .close:focus {
+    color: #000;
+    cursor: pointer;
+    opacity: 0.5;
+    text-decoration: none;
+}
+button.close {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 30px;
+    float: right;
+}
+.modal-open {
+    overflow: hidden;
+}
+.modal {
+    bottom: 0;
+    display: none;
+    left: 0;
+    outline: 0 none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+.modal.fade .modal-dialog {
+    transform: translate(0px, -25%);
+    transition: transform 0.3s ease-out 0s;
+}
+.modal.in .modal-dialog {
+    transform: translate(0px, 0px);
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal-dialog {
+    position: relative;
+}
+.modal-content {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0 none;
+    position: relative;
+}
+.modal-backdrop {
+    background-color: #000;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.modal-backdrop.fade {
+    opacity: 0;
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+}
+.modal-header {
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.43px;
+    padding: 15px;
+}
+.modal-header .close {
+    margin-top: -2px;
+}
+.modal-title {
+    line-height: 1.42857;
+    font-weight: bold;
+    margin: 0;
+}
+.modal-body {
+    padding: 15px;
+    position: relative;
+}
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 15px;
+    text-align: right;
+}
+.modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+.modal-scrollbar-measure {
+    height: 50px;
+    overflow: scroll;
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+}
+.ui-autocomplete{
+    z-index: 99999 !important;
+}
+
+.dataTables_paginate {
+    border-radius: 4px;
+    display: inline-block;
+    margin: 18px 0;
+    padding-left: 0;
+}
+.dataTables_paginate li {
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+}
+.dataTables_paginate .current {
+    background-color: #428bca;
+    border-color: #428bca;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
+}
+.dataTables_paginate > span li, .dataTables_paginate > .previous, .dataTables_paginate > .next{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #428bca;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}

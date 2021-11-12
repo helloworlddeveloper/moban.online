@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cms>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[affiliate]]></name>
+		<version><![CDATA[1.0.00]]></version>
+		<date><![CDATA[Tue, 07 Nov 2017 07:57:51 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[mynukeviet (contact@mynukeviet.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[19]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[banners]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[Module banners của hệ thống NukeViet]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/banners/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/banners/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[calendar]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thắng <kid.apt@gmail.com>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[carprice]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[TDFOSS.,LTD <contact@tdfoss.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[281]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[comment]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[Module Comment Module Comment]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/comment/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/comment/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[20]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[contact]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module contact của hệ thống NukeViet]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/contact/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/contact/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[theme]]></type>
+		<name><![CDATA[daily]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Tue, 17 Jul 2018 04:03:44 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thắng]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Đây là giao diện mặc định của hệ thống. Bạn không được xóa, đổi tên và không nên sửa trực tiếp vào giao diện này. Nếu muốn, hãy copy thành giao diện khác và kích hoạt sử dụng giao diện mới đó để chỉnh sửa và sử dụng.]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[data-content]]></name>
+		<version><![CDATA[4.2.0]]></version>
+		<date><![CDATA[Thu, 22 Jun 2017 09:53:22 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[307]]></id>
+		<type><![CDATA[theme]]></type>
+		<name><![CDATA[default]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Giao diện mặc định]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/themes/default/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/themes/default/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[25]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[download]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Tue, 08 Jan 2019 02:07:41 GMT]]></date>
+		<new_version><![CDATA[4.3.00]]></new_version>
+		<new_date><![CDATA[Tue, 08 Jan 2019 02:07:41 GMT]]></new_date>
+		<author><![CDATA[VINADES.,JSC (nukeviet.store@vinades.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module download của hệ thống NukeViet]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/download/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/download/]]></support>
+		<updateable>
+			<upds>
+				<upd>
+					<upd_fid><![CDATA[526]]></upd_fid>
+					<upd_old><![CDATA[4.0.29,4.1.00,4.1.01]]></upd_old>
+					<upd_new><![CDATA[4.1.02]]></upd_new>
+				</upd>
+				<upd>
+					<upd_fid><![CDATA[590]]></upd_fid>
+					<upd_old><![CDATA[4.0.29,4.1.00,4.1.01,4.1.02,4.2.00,4.2.01,4.2.02]]></upd_old>
+					<upd_new><![CDATA[4.3.00]]></upd_new>
+				</upd>
+			</upds>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[emailmarketing]]></name>
+		<version><![CDATA[1.0.01]]></version>
+		<date><![CDATA[Sat, 15 Oct 2016 03:30:10 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[mynukeviet (contact@mynukeviet.net)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[faqs]]></name>
+		<version><![CDATA[4.0.00]]></version>
+		<date><![CDATA[Wed, 08 Oct 2014 09:47:15 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES (contact@vinades.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[283]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[feeds]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[Module Feeds Module Feeds]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/feeds/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/feeds/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[312]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[freecontent]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module giới thiệu sản phẩm của hệ thống NukeViet 4]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/freecontent/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/freecontent/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[theme]]></type>
+		<name><![CDATA[gmwhite]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Tue, 05 Dec 2017 03:09:43 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thắng]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Đây là giao diện mặc định của hệ thống. Bạn không được xóa, đổi tên và không nên sửa trực tiếp vào giao diện này. Nếu muốn, hãy copy thành giao diện khác và kích hoạt sử dụng giao diện mới đó để chỉnh sửa và sử dụng.]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[theme]]></type>
+		<name><![CDATA[gmwhite-2]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Tue, 05 Dec 2017 03:09:43 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thắng]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Đây là giao diện mặc định của hệ thống. Bạn không được xóa, đổi tên và không nên sửa trực tiếp vào giao diện này. Nếu muốn, hãy copy thành giao diện khác và kích hoạt sử dụng giao diện mới đó để chỉnh sửa và sử dụng.]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[hoi-thao]]></name>
+		<version><![CDATA[4.3.0]]></version>
+		<date><![CDATA[Wed, 24 Dec 2014 06:56:01 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr Thắng (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module Đăng ký]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[inventory]]></name>
+		<version><![CDATA[1.0.01]]></version>
+		<date><![CDATA[Fri, 12 Jan 2018 02:38:03 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[TDFOSS.,LTD (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[itinerary]]></name>
+		<version><![CDATA[1.0.01]]></version>
+		<date><![CDATA[Fri, 12 Jan 2018 02:38:03 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[TDFOSS.,LTD (quanglh268@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[location]]></name>
+		<version><![CDATA[1.0.03]]></version>
+		<date><![CDATA[Wed, 16 Dec 2015 07:05:25 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[mynukeviet (contact@mynukeviet.net)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module địa điểm]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[29]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[menu]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module menu của hệ thống NukeViet]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/menu/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/menu/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[mkt]]></name>
+		<version><![CDATA[4.3.0]]></version>
+		<date><![CDATA[Tue, 21 Nov 2017 01:50:26 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[311]]></id>
+		<type><![CDATA[theme]]></type>
+		<name><![CDATA[mobile_default]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Giao diện mặc định dành cho di động]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/themes/mobile-default/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/themes/mobile-default/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[theme]]></type>
+		<name><![CDATA[mobile_gmwhite]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Tue, 05 Dec 2017 03:09:43 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[GM White.,JSC]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Đây là giao diện mặc định cho mobile]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[1]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[news]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module này được phát hành cùng hệ thống, luôn đi kèm trong các bản NukeViet mặc định.]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/news/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/news/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[noibo]]></name>
+		<version><![CDATA[4.2.01]]></version>
+		<date><![CDATA[Sat, 05 Aug 2017 13:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[notice]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Fri, 01 Feb 2013 04:11:16 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Bùi Văn Thắng (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Display notice message]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[notification]]></name>
+		<version><![CDATA[4.1.10]]></version>
+		<date><![CDATA[Tue, 10 Jan 2017 11:40:15 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[282]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[page]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[Module Page Module Page Module Page]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/page/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/page/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[photo]]></name>
+		<version><![CDATA[4.2.01]]></version>
+		<date><![CDATA[Thu, 22 Feb 2018 02:15:44 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[photos]]></name>
+		<version><![CDATA[1.4.02]]></version>
+		<date><![CDATA[Wed, 07 Jun 2017 08:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[KENNY NGUYEN (nguyentiendat713@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[popup]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Tue, 21 Mar 2017 03:44:56 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[product]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[reg]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Wed, 24 Dec 2014 06:56:01 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr Thắng (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module Đăng ký]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[regsite]]></name>
+		<version><![CDATA[4.3.0]]></version>
+		<date><![CDATA[Thu, 22 Jun 2017 09:53:22 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[review]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang <kid.apt@gmail.com>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[search-suggest]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang <kid.apt@gmail.com>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[284]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[seek]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[Module Seek Module Seek Module Seek]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/seek/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/seek/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[sharefile]]></name>
+		<version><![CDATA[4.0.00]]></version>
+		<date><![CDATA[Wed, 20 Oct 2010 00:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[GMWHITE (thangbv@gmwhite.com.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[shops]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Tue, 18 Apr 2017 00:50:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES (contact@vinades.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[slide]]></name>
+		<version><![CDATA[4.5.0]]></version>
+		<date><![CDATA[Tue, 25 Apr 2017 02:00:51 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr Duy (vuduy1502@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[slidefooter]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Thu, 19 Jun 2014 09:53:22 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thang (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[slidehome]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Thu, 19 Jun 2014 09:53:22 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES (contact@vinades.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[sm]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Wed, 17 Jan 2018 09:41:32 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[N/A (N/A)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[27]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[statistics]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module statistics của hệ thống NukeViet]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/statistics/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/statistics/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[studyonline]]></name>
+		<version><![CDATA[4.3.0]]></version>
+		<date><![CDATA[Tue, 14 Mar 2017 10:56:01 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[CASH13 (thangbv@cash13.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module dạy học online]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[task]]></name>
+		<version><![CDATA[1.0.00]]></version>
+		<date><![CDATA[Sat, 13 Jan 2018 13:35:09 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[TDFOSS.,LTD (contact@tdfoss.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[topnpp]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[Mr.Thắng <kid.apt@gmail.com>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[327]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[two-step-verification]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[GNU - GPL]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[two-step-verification two-step-verification]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/two-step-verification/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/two-step-verification/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[24]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[users]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[sys]]></mode>
+		<message><![CDATA[Module users của hệ thống NukeViet]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/users/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/users/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[video-clip]]></name>
+		<version><![CDATA[4.1.01]]></version>
+		<date><![CDATA[Sun, 12 Feb 2017 22:02:42 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[PHAN TAN DUNG (phantandung92@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module playback of video-clips]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[21]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[voting]]></name>
+		<version><![CDATA[4.3.00]]></version>
+		<date><![CDATA[Thu, 09 Nov 2017 09:00:00 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES <contact@vinades.vn>]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[Module voting của hệ thống NukeViet]]></message>
+		<link><![CDATA[https://nukeviet.vn/vi/store/modules/voting/]]></link>
+		<support><![CDATA[https://nukeviet.vn/vi/store/modules/voting/]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[true]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[workforce]]></name>
+		<version><![CDATA[1.0.01]]></version>
+		<date><![CDATA[Fri, 12 Jan 2018 02:38:03 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[TDFOSS.,LTD (kid.apt@gmail.com)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+	<extension>
+		<id><![CDATA[0]]></id>
+		<type><![CDATA[module]]></type>
+		<name><![CDATA[ws]]></name>
+		<version><![CDATA[4.0.0]]></version>
+		<date><![CDATA[Thu, 19 Jul 2018 09:53:22 GMT]]></date>
+		<new_version><![CDATA[]]></new_version>
+		<new_date><![CDATA[]]></new_date>
+		<author><![CDATA[VINADES (contact@vinades.vn)]]></author>
+		<license><![CDATA[]]></license>
+		<mode><![CDATA[other]]></mode>
+		<message><![CDATA[]]></message>
+		<link><![CDATA[]]></link>
+		<support><![CDATA[]]></support>
+		<updateable>
+		</updateable>
+		<origin><![CDATA[false]]></origin>
+	</extension>
+</cms>

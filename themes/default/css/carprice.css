@@ -1,0 +1,219 @@
+
+/* Dá»± Ä‘oan chi phĂ­ */
+.du_doan_chi_phi{
+    border-top: 2px solid #e8e8e8;
+    background: #fff;
+}
+.text_bold{
+    font-weight: bold !important;
+}
+.text_center{
+    text-align: center;
+}
+
+.col_right{text-align:right;}
+.col_left p {text-align: left !important;}
+.col_2.col_left{margin-left: 80px !important;}
+.col_right.col_center {
+    text-align: center !important;
+    width: 100% !important;
+}
+.form_select{
+    border: 1px solid #dfdfdf;
+    margin: 10px 0;
+    padding: 20px 20px 20px 80px;
+}
+ul.thongtin{
+    margin: 0px auto;
+    padding: 0;
+}
+ul.thongtin li{
+    padding: 10px;
+}
+ul.thongtin li span{
+    float: right;
+}
+.form_select span{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+}
+.form_select select{
+    border: 1px solid #dfdfdf;
+    width: 200px;
+    height: 30px;
+}
+.block{
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+}
+a.btn{
+    background: #9f224e;
+    height: 27px;
+    line-height: 27px;
+    color:#fff;
+    text-align:center;
+    display: inline-block;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+h2.tieude{
+    color: #9f224e;
+    font-size: 16px;
+    border-bottom: 2px solid #e6e6e7;
+    margin: 10px 0;
+    padding: 10px 0;
+    width:100%;
+}
+.process_bar{
+    background: #e6e6e7;
+    width: 330px;
+    height: 2px;
+    position: relative;
+    margin:5px 0 15px;
+}
+.scroll_btn{
+    background: #9f224e;
+    width: 36px;
+    height: 11px;
+    position: absolute;
+    left: 0;
+    top: -5px;
+    border-radius:20px
+}
+.min{
+    float: left;
+}
+.max{
+    float: right;
+}
+/* Tabs */
+#container_tabs input#tab-1, #container_tabs input#tab-2 {
+    height: 2.5em;
+    visibility: hidden;
+}
+#container_tabs .width_common{
+    margin-bottom: 20px;
+    clear: both;
+}
+
+#container_tabs label {
+    background: #f6f6f6;
+    color: #b9b9b9;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 13px;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
+#container_tabs input:hover + label {
+    background: #f6f6f6;
+    color: #666;
+}
+
+#container_tabs input:checked + label {
+    background: #fff;
+    border-bottom: 2px solid #f6f6f6;
+    color: #000;
+    z-index: 6;
+    box-sizing: border-box;
+}
+
+#content_tabs {
+
+    position: relative;
+
+    z-index: 5;
+    margin-top: 25px;
+}
+
+#content_tabs div#content_tabs-1, #content_tabs div#content_tabs-2 {
+    opacity: 0;
+    z-index: -100;
+}
+
+#container_tabs input#tab-1:checked ~ #content_tabs #content_tabs-1,
+#container_tabs input#tab-2:checked ~ #content_tabs #content_tabs-2{
+    opacity: 1;
+    z-index: 100;
+}
+
+input.visible {
+    visibility: visible !important;
+}
+.col_left input{
+    border: 1px solid #dbdbdc;
+    width: 88px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 13px;
+}
+.col_left input#giaingan{
+    background: url(images/graphics/calendar.png) 85px center no-repeat;
+}
+.note{
+    background: #f6f6f6;
+    color: #666;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin:0 auto;
+    margin-bottom: 15px;
+}
+.note span{
+    color: red;
+}
+.col_left p{
+    font-weight: bold;
+}
+#container_tabs .col_left{
+    float: left;
+}
+
+#container_tabs .col_right{
+    float: right;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+/*End tabs*/
+.ketqua{
+    background: #f6f6f6;
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    text-align:center;
+    margin-bottom: 10px;
+}
+.col_1 .ketqua{
+    position: absolute;
+    right: -200px;
+    top: -20px;
+}
+.ketqua .money{
+    color: #9f224e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ketqua > p {
+    margin-top: 30px;
+}
+
+.info_chi_phi .right_line{
+    text-align: right;
+    width: 130px !important;
+}
+.info_chi_phi{
+    min-height: auto !important;
+}
+.info_chi_phi label {
+    font-weight: bold;
+    margin-right: 25px;
+}
+

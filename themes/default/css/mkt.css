@@ -1,0 +1,219 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate Tue, 18 Nov 2014 01:50:26 GMT
+ */
+ 
+#items img{
+    margin-top: 20px;
+    border:  1px solid #ccc;
+    padding: 5px; 
+    width: 100%;
+    height: 240px;
+}
+#items .img{
+    overflow: hidden;
+    height: 260px;
+    margin-bottom: 10px;
+}
+#items .rmtitle{
+    height: 50px;
+    overflow: hidden;
+}
+#items h3 {
+    margin-top: 5px;
+    color: #000;
+    font-family: MyriadPro;
+    font-size: 30px;
+    line-height: 28px;
+    padding-top: 15px;
+    text-align: center;
+}
+#items h3 a{
+    color: #000;
+}
+#items .content {
+    color: #000;
+    font-size: 13px;
+    height: 140px;
+    overflow: hidden;
+    padding: 5px 20px;
+}
+#detail .title {
+    color: #f90;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    min-height: 30px;
+    width: 97%;
+}
+#detail .content, #detail .slider-image{
+    clear: both;
+    padding-top: 10px;
+}
+.left-detail{
+    padding: 5px;
+    background-color: #fbfbfb;
+}
+.left-detail div{
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.btn-order{
+    background: #75ae32;
+    color: #fff;
+    font-weight: bold;
+}
+.w100{
+    width: 100% !important;
+}
+.w50{
+    width: 50% !important;
+}
+.head-title{
+    background-color: #ed1c24;
+    padding: 8px;
+    color:#fff;
+    font-size: 18px;
+}
+.rmitem{
+    height: 250px;
+    overflow: hidden;
+    background: #ffb200;
+}
+.btn-rm{
+    background: #221e12;
+    border: 1px solid #ffb200;
+    text-align: center;
+    color: #ffb200;
+    font-size: 18px;
+}
+.rmorder{
+    text-align: center;
+}
+.list-horizontal-bullet > li {
+    margin-right: 10px;
+    float: left;
+}
+
+/* as fb */
+.uiInlineTokenizer .uiToken {
+    top: 2px;
+}
+
+.uiInlineTokenizer {
+    border: 1px solid #BDC7D8;
+    cursor: text;
+}
+.uiCloseButtonSmall {
+    background-image: url("../images/affiliate/delfb.png");
+    height: 11px;
+    margin-top: 1px;
+    width: 11px;
+}
+.uiCloseButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.uiTypeahead{
+    border-top: 1px solid #ccc;
+}
+.uiTypeahead .innerWrap {
+    overflow: hidden;
+}
+.uiTypeahead .textInput {
+    background:none !important;
+    border: none!important;
+    border: 0 none;
+    outline: 0 none;
+    -webkit-box-shadow: 0 0 0 #fff;
+    -moz-box-shadow: 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff;
+}
+.uiTypeahead .selected {
+    background-color: #E2E8F6;
+}
+.uiTypeaheadDisabled, .uiTypeaheadDisabled div.wrap {
+    border-color: #CCCCCC;
+}
+.uiTypeaheadDisabled div.wrap {
+    background: none repeat scroll 0 0 #E2E2E2;
+}
+.uiToken {
+    background: #E6E6E6;
+    border: 1px solid #ccc;
+    border-radius: 2px 2px 2px 2px;
+    color: #1C2A47;
+    cursor: default;
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 24px;
+    margin: 0 4px 4px 0;
+    padding: 0 3px;
+    position: relative;
+    font-size: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.uiToken .remove {
+    margin: 2px 0 -2px 1px;
+    outline: medium none;
+}
+.uiTokenSelected {
+    background-color: #6D84B4;
+    border-color: #3B5998;
+    color: #FFFFFF;
+}
+.uiTokenGray {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-color: gray;
+}
+.uiTokenizer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 35px;
+}
+
+.tokenarea {
+    overflow: hidden;
+    padding-left: 3px;
+}
+.uiContextualTypeaheadView {
+    position: static;
+}
+.uiTypeaheadView ul {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #333333 #333333 #293E6A;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    overflow: hidden;
+    padding: 2px 0;
+}
+
+
+#ajax_load {
+    background: transparent url("../images/affiliate/bg_loading.png") no-repeat scroll center bottom;
+    display: none;
+    height: 40px;
+    left: 42%;
+    position: fixed;
+    top: 0;
+    width: 275px;
+    z-index: 9999;
+}
+#ajax_load .loading {
+    background: transparent url("../images/affiliate/loading.gif") no-repeat scroll 0 0;
+    color: #f00;
+    margin: 5px 0 5px 20px;
+    padding-left: 20px;
+}

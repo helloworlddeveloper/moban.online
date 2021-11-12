@@ -1,0 +1,1 @@
+UPDATE nv4_affiliate_users SET deviceid='cdt-pbLTZsc:APA91bGB2pX-QChBCctCSx_hTIu9XfvRW__w-CjDbL_sIlMMnkEieUUUgaoSePML_U_yuEHrLD3f09d_ko9wQbKhslUQEni9Vqb8TzJmYIxSYvA8EcHeDYRF7i76gtHQQazDtUisj3_j' WHERE userid =3192

@@ -1,0 +1,53 @@
+<?php
+
+$lang_module['save'] = 'Lưu';
+$lang_module['stt'] = 'STT';
+$lang_module['alias'] = 'Alias';
+$lang_module['cat'] = 'Quản lý danh mục';
+$lang_module['group'] = 'Quản lý phòng ban';
+$lang_module['group_name'] = 'Tên phòng ban';
+$lang_module['group_cat'] = 'Tên danh mục';
+$lang_module['note'] = 'Ghi chú';
+
+$lang_module['addcontact'] = 'Thêm lịch mới';
+$lang_module['title_event'] = 'Tên lịch';
+$lang_module['moderator'] = 'Người chủ trì';
+$lang_module['participants'] = 'Thành phần tham gia';
+$lang_module['timeevent'] = 'Thời gian diễn ra';
+$lang_module['from'] = 'từ';
+$lang_module['to'] = 'đến';
+$lang_module['day'] = 'ngày';
+$lang_module['description'] = 'Nội dung lịch làm việc';
+$lang_module['addressevent'] = 'Địa chỉ';
+$lang_module['provinceid'] = 'Tỉnh/thành';
+$lang_module['timefix'] = 'Là lịch cố định';
+$lang_module['timefix_title'] = 'Loại lịch';
+$lang_module['timefix_0'] = '1 lần';
+$lang_module['timefix_1'] = 'Cố định';
+$lang_module['select_catid'] = 'Chọn danh mục';
+$lang_module['select_groupid'] = 'Chọn phòng ban';
+$lang_module['province_select'] = 'Chọn tỉnh/thành';
+$lang_module['minute'] = 'Phút';
+$lang_module['hour'] = 'Giờ';
+$lang_module['empty_timeevent'] = 'Bạn cần chọn thời gian diễn ra lịch làm việc';
+$lang_module['empty_title_event'] = 'Bạn chưa nhập tên lịch làm việc';
+$lang_module['empty_moderator']= 'Bạn chưa nhập người chủ trì';
+$lang_module['empty_addressevent'] = 'Bạn chưa nhập địa chỉ diễn ra lịch làm việc';
+$lang_module['empty_provinceid'] = 'Bạn chưa chọn tỉnh/thành phố diễn ra lịch làm việc';
+$lang_module['empty_groupid'] = 'Bạn chưa chọn phòng ban cho lịch làm việc';
+$lang_module['empty_catid'] = 'Bạn chưa chọn danh mục lịch làm việc';
+$lang_module['errorsave'] = 'Lỗi: Hệ thống không lưu được dữ liệu! Vui lòng thử lại sau';
+
+$lang_module['calendar'] = 'Lịch làm việc';
+$lang_module['delete'] = 'Xóa';
+$lang_module['edit'] = 'Sửa';
+$lang_module['status_search'] = 'Tìm theo trạng thái';
+$lang_module['cat_search'] = 'Tìm theo danh mục';
+$lang_module['search_title'] = 'Từ khóa tìm kiếm';
+$lang_module['search'] = 'Tìm kiếm';
+$lang_module['status'] = 'Trạng thái';
+$lang_module['status_1'] = 'Hiển thị';
+$lang_module['status_0'] = 'Ẩn';
+$lang_module['error_exits_calendar_fix'] = 'Lịch này bị trùng với lịch cố định diễn ra hàng tuần <strong>%s</strong> từ %s - %s tại %s. Bỏ qua cảnh báo nếu muốn ghi đè lịch cố định cho ngày %s';
+$lang_module['error_exits_calendar'] = 'Thời gian này đã diễn ra lịch làm việc của <strong>%s</strong> từ %s - %s tại %s';
+$lang_module['other'] = 'Lịch làm việc thay thế';

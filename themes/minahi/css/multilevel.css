@@ -1,0 +1,147 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author NVholding <contact@nvholding.vn>
+ * @Copyright (C) 2021 NVholding. All rights reserved
+ * @License: Not free read more http://nukeviet.vn/vi/store/modules/nvtools/
+ * @Createdate Sat, 17 Jul 2021 08:08:05 GMT
+ */
+
+
+.bg {
+    color: white;
+}
+
+.well {
+    background: rgba(204, 204, 204, 0.385);
+}
+
+.control-label {
+    text-align: left !important;
+    padding-left: 30px;
+}
+
+.input-group-addon {
+    color: red;
+    font-weight: bold;
+}
+
+.separate {
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 767px) {
+    .well {
+        padding: 0 100px;
+    }
+}
+
+.btn-register {
+    padding: 12px 24px;
+    background-color: #3a746b;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn-register:hover {
+    background-color: #21443f;
+}
+
+label {
+    color: black;
+}
+
+.black {
+    color: black;
+}
+
+.steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    color: #929292;
+    height: 4rem;
+    margin-top: 60px;
+}
+.steps > .step {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    font-size: 0.875rem;
+    color: black;
+}
+.steps > .step:before {
+    content: attr(data-step);
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    border: 2px solid #e6e6e6;
+    color: #e6e6e6;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    margin-bottom: -4.2rem;
+    line-height: 1.9rem;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.steps > .step:after {
+    content: '';
+    position: absolute;
+    display: block;
+    background: #e6e6e6;
+    width: 100%;
+    height: 0.125rem;
+    top: 1rem;
+    left: 50%;
+}
+.steps > .step:last-child:after {
+    display: none;
+}
+.steps > .step.is-complete {
+    color: #6d6875;
+}
+.steps > .step.is-complete:before {
+    content: '\2713';
+    color: #3a746b;
+    background: #fef0e2;
+    border: 2px solid #3a746b;
+}
+.steps > .step.is-complete:after {
+    background: #3a746b;
+}
+.steps > .step.is-active {
+    font-size: 1.5rem;
+}
+.steps > .step.is-active:before {
+    color: #fff;
+    border: 2px solid #3a746b;
+    background: #3a746b;
+    margin-bottom: -4.9rem;
+}
+/** * Some Generic Styling */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #6d6875;
+}
+
+html {
+    font-size: 1rem;
+}
+
+li {
+}

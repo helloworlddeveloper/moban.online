@@ -1,0 +1,51 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2016 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate Fri, 01 Feb 2013 04:11:16 GMT
+ */
+/******/
+.pages {
+	display: inline-block;
+	float: right;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.pages a {
+	color: #000000;
+	border: 1px solid #ebebeb;
+	padding: 2px 6px;
+	display: inline-block;
+}
+
+.pages a:hover {
+	background: #f2f2f2;
+}
+
+.pages strong {
+	color: #ffffff;
+	border: 1px solid #ebebeb;
+	padding: 2px 6px;
+	display: inline-block;
+	background: #0080c0;
+	font-weight: normal;
+}
+.notices ul li{
+	
+    border-bottom: 1px solid #D8D8D8;
+    padding: 5px 0 5px 0px;
+}
+.notices ul li:last-child{
+	border-bottom:none;
+
+}
+.notices ul {
+    list-style: none;
+    margin: 0;
+}
+.marquee_options{
+    width: 100%;
+    overflow: hidden;
+}
